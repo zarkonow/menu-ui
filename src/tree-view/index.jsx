@@ -1,4 +1,5 @@
 import React from 'react'
+import MenuList from './menu-list'
 
 export default function TreeView({menus = []}) {
 
@@ -6,9 +7,7 @@ export default function TreeView({menus = []}) {
 
   return (
     <div className='tree-veiw-container'>
-        {
-            
-        }
+        <MenuList/>
     </div>
   )
 }
