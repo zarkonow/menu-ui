@@ -1,7 +1,7 @@
 
 import './App.css';
-import TreeView from './tree-view/index';
-import menus from './tree-view/data';
+import TreeView from './tree-view/index.jsx';
+import menus from './tree-view/data.js';
 
 function App() {
   return (
